@@ -1,8 +1,11 @@
-import "./App.css";
 import Header from "./components/Header";
 
 function App() {
-  return <Header />;
+  return (
+    <section className="flex flex-col w-screen h-screen font-sans">
+      <Header />
+    </section>
+  );
 }
 
 export default App;
