@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col items-center justify-between w-[90%] gap-10 m-auto sm:w-3/4 xl:flex-row">
         <img src={aboutCover} alt="" className="w-full bg-cover xl:w-1/2" />
         <div className="flex flex-col items-center w-full space-y-10 text-sm text-center text-blue-900 sm:text-xl xl:w-1/2">
-          <h1 className="text-4xl font-bold sm:text-5xl">About Us</h1>
+          <h1 className="text-3xl font-bold sm:text-5xl">About Us</h1>
           <p>
             At CyBorge Academy, we're passionate about empowering individuals to
             become proficient full-stack developers. Our team of experienced

@@ -8,7 +8,7 @@ export default function Benefits() {
     <section className="w-full text-white bg-blue-600 py-60">
       <div className="flex flex-col items-center justify-between w-[90%] sm:w-3/4 gap-10 m-auto">
         <div className="flex flex-col items-center w-full space-y-20 text-sm text-center sm:text-xl">
-          <h1 className="text-4xl font-bold sm:text-5xl">
+          <h1 className="text-3xl font-bold sm:text-5xl">
             Why Learn Full Stack Development
           </h1>
           <p>

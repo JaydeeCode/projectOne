@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <section className="w-full py-32 text-white bg-blue-600">
-      <div className="flex flex-col justify-between w-3/4 m-auto text-center space-y-28">
+      <div className="flex flex-col justify-between w-[90%] sm:w-3/4 m-auto text-center space-y-28">
         {/* to wrap cards */}
-        <div className="flex flex-col justify-between gap-10 text-base md:flex-row">
+        <div className="flex flex-col justify-between gap-10 text-sm sm:text-xl md:flex-row">
           {/* Card 1 */}
           <div className="flex flex-col">
             <h1 className="mb-5 font-bold">Navigation Links</h1>
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center space-y-5">
-          <h1 className="text-xl font-bold">Stay Connected!</h1>
+          <h1 className="text-3xl font-bold">Stay Connected!</h1>
           <p>
             Sign up for our newsletter to receive updates on new courses,
             promotions, and industry news.

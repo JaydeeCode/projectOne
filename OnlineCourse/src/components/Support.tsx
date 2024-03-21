@@ -6,10 +6,12 @@ import socialGroups from "../assets/images/socialGroups.png";
 export default function Support() {
   return (
     <section className="w-full">
-      <div className="flex flex-col justify-center w-3/4 m-auto space-y-40 text-center text-blue-900">
-        <h1 className="text-5xl font-bold">Community and Suppport</h1>
+      <div className="flex flex-col justify-center w-[90%] sm:w-3/4 m-auto space-y-40 text-center text-blue-900">
+        <h1 className="text-3xl font-bold sm:text-5xl">
+          Community and Suppport
+        </h1>
         {/* Card Container */}
-        <div className="flex flex-col w-full gap-10 text-sm text-center lg:flex-row">
+        <div className="flex flex-col w-full gap-10 text-sm text-center sm:text-xl lg:flex-row">
           {/* Card 1 */}
           <div className="p-5 space-y-5 border rounded-lg shadow-lg">
             <div className="flex justify-center ">
