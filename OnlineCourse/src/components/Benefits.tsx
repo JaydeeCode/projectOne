@@ -6,9 +6,9 @@ import problemSolvingSkills from "../assets/images/problemSolving.png";
 export default function Benefits() {
   return (
     <section className="w-full text-white bg-blue-600 py-60">
-      <div className="flex flex-col items-center justify-between w-3/4 gap-10 m-auto">
-        <div className="flex flex-col items-center w-full space-y-20 text-xl text-center">
-          <h1 className="text-3xl font-bold sm:text-5xl">
+      <div className="flex flex-col items-center justify-between w-[90%] sm:w-3/4 gap-10 m-auto">
+        <div className="flex flex-col items-center w-full space-y-20 text-sm text-center sm:text-xl">
+          <h1 className="text-4xl font-bold sm:text-5xl">
             Why Learn Full Stack Development
           </h1>
           <p>
@@ -22,7 +22,7 @@ export default function Benefits() {
             Benefits of Learning Full Stack Development:
           </p>
           {/* Card Container */}
-          <div className="flex flex-col w-full gap-10 text-sm lg:flex-row">
+          <div className="flex flex-col w-full gap-10 text-sm xl:flex-row">
             {/* Card 1 */}
             <div className="p-5 space-y-5 border rounded-lg shadow-lg">
               <div className="flex justify-center ">
@@ -32,6 +32,7 @@ export default function Benefits() {
                   className="object-scale-down w-48"
                 />
               </div>
+
               <h1 className="font-bold">Versatility</h1>
               <p>
                 Gain expertise in both front-end technologies (HTML, CSS,

@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 
 export default function header() {
   return (
-    <div className="flex flex-row items-center justify-between w-3/4 space-x-3">
+    <div className="flex flex-row items-center justify-between w-[90%] sm:w-3/4 space-x-3">
       <div className="flex flex-row items-center gap-5">
         <img
           src={logo}
@@ -13,8 +13,8 @@ export default function header() {
           className="hidden w-full max-w-36 md:block"
         />
         <form action="/" className="flex flex-row items-center">
-          <input type="text" className="p-1" />
-          <button className="flex items-center justify-center p-1 bg-blue-900">
+          <input type="text" className="hidden p-1 sm:block" />
+          <button className="flex items-center justify-center p-1 bg-blue-900 rounded-lg sm:rounded-none">
             <BiSearchAlt2 className="text-2xl text-white" />
           </button>
         </form>

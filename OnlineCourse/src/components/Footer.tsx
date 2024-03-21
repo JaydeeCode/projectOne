@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <section className="w-full py-32 text-white bg-blue-600">
-      <div className="flex flex-col justify-between w-3/4 m-auto space-y-10 text-center">
+      <div className="flex flex-col justify-between w-3/4 m-auto text-center space-y-28">
         {/* to wrap cards */}
         <div className="flex flex-col justify-between gap-10 text-base md:flex-row">
           {/* Card 1 */}

@@ -13,7 +13,7 @@ function App() {
       <section className="flex items-center justify-center w-full h-[10%] bg-blue-600  shadow-md  z-10 ">
         <Header />
       </section>
-      <div className=" w-full overflow-y-scroll no-scrollbar space-y-60 h-[90%]">
+      <div className=" w-full overflow-y-scroll no-scrollbar space-y-52 md:space-y-60 h-[90%]">
         <Hero />
         <About />
         <Benefits />
